@@ -9,10 +9,10 @@
     "access": "public"
   },
   "scripts": {
-    "start": "npx elizaos start",
+    "start": "elizaos start",
     "build": "tsup",
     "lint": "prettier --write ./src",
-    "dev": "npx elizaos dev",
+    "dev": "elizaos dev",
     "test": "elizaos test",
     "clean": "rm -rf dist .turbo node_modules .turbo-tsconfig.json tsconfig.tsbuildinfo",
     "format": "prettier --write ./src",
